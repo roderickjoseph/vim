@@ -1,6 +1,6 @@
 " editing
-set shiftwidth=2
-set tabstop=2
+set shiftwidth=4
+set tabstop=4
 set expandtab                     " replace tabs with spaces
 set textwidth=0                   " avoid forced line breaks
 set nowrap

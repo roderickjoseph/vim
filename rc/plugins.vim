@@ -33,12 +33,14 @@ Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-markdown'
 Plugin 'stanangeloff/php.vim'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'flazz/vim-colorschemes'
 
 " completion
 Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'Shougo/neocomplete.vim'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-endwise'
+Plugin 'jiangmiao/auto-pairs'
 
 " code display
 Plugin 'altercation/vim-colors-solarized'

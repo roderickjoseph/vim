@@ -1,3 +1,9 @@
+" map leader
+let mapleader = ","
+
+" add scroll to bottom of screen
+set scrolloff=5
+
 " yank from cursor to end of line
 noremap Y y$
 
