@@ -1,16 +1,18 @@
 " editing
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set expandtab                     " replace tabs with spaces
 set textwidth=0                   " avoid forced line breaks
 set nowrap
 let &showbreak = '↪ '             " if line is wrapped, prefix with break character
 set number relativenumber         " show relative line numbers
-set ruler                         " show the line and columb number of the cursor
+set ruler                         " show the line and column number of the cursor
 set cursorline                    " highlight the current line
 set list                          " show invisible characters
 set backspace=indent,eol,start    " backspace through everything in insert mode
 set laststatus=2                  " always show the status line
+
+set backupcopy=yes
 
 " lookup words with dictionary completion
 set dictionary+=/usr/share/dict/words

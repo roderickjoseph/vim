@@ -2,7 +2,7 @@
 let mapleader = ","
 
 " add scroll to bottom of screen
-set scrolloff=5
+set scrolloff=20
 
 " yank from cursor to end of line
 noremap Y y$
@@ -24,12 +24,6 @@ cnoremap <C-N> <Down>
 
 " insert date into command line
 cnoremap <C-T> <C-R>=strftime("%Y-%m-%d")<CR>
-
-" run current file with python
-nnoremap <Leader>pr :!python %<CR>
-
-" run python tests
-nnoremap <Leader>pt :!python -m unittest discover -s tests<CR>
 
 " copy current file path or path with line number
 nnoremap <silent> <Leader>cp :let @+ = expand('%')<CR>:echo 'copied '.expand('%')<CR>

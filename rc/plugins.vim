@@ -17,39 +17,27 @@ Plugin 'VundleVim/Vundle.vim'
 
 " language
 Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'chrisbra/csv.vim'
-Plugin 'derekwyatt/vim-scala'
-Plugin 'digitaltoad/vim-jade'
-Plugin 'elmcast/elm-vim'
 Plugin 'elzr/vim-json'
-Plugin 'groenewege/vim-less'
 Plugin 'leafgarland/typescript-vim'
-Plugin 'matze/vim-lilypond'
-Plugin 'mmalecki/vim-node.js'
 Plugin 'othree/html5.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'quramy/tsuquyomi'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-markdown'
-Plugin 'stanangeloff/php.vim'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'flazz/vim-colorschemes'
 
 " completion
 Plugin 'ludovicchabant/vim-gutentags'
-Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'skywind3000/gutentags_plus'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'tpope/vim-endwise'
-Plugin 'jiangmiao/auto-pairs'
 
 " code display
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'posva/vim-vue'
+Plugin 'altercation/vim-colors-solarized'
 
 " integrations
-Plugin 'joonty/vdebug'
+" Plugin 'joonty/vdebug'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-dispatch'
@@ -57,7 +45,8 @@ Plugin 'w0rp/ale'
 
 " interface
 Plugin 'airblade/vim-gitgutter'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'sjl/gundo.vim'
@@ -78,7 +67,6 @@ Plugin 'whatyouhide/vim-textobj-xmlattr'
 " other
 Plugin 'embear/vim-localvimrc'
 Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-notes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()

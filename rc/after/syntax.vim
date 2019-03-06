@@ -1,9 +1,8 @@
-" syntax highlighting
-" let g:solarized_contrast="high"
-" let g:solarized_termcolors=256
-
 syntax enable
-set background=dark
-silent! colorscheme molokai
 
-cd ~/workspace/806Apps
+set background=dark
+colorscheme solarized
+
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark'
+
