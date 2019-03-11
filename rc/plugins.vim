@@ -35,6 +35,8 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'posva/vim-vue'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'jacoborus/tender.vim'
+Plugin 'whatyouhide/vim-gotham'
 
 " integrations
 " Plugin 'joonty/vdebug'
